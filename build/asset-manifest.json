@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eec85b72.css",
+    "main.js": "/static/js/main.c624cc53.js",
+    "static/media/Shimon-CV.pdf": "/static/media/Shimon-CV.74cb6561fca40baafcc6.pdf",
+    "static/media/profileImage 2.jpg": "/static/media/profileImage 2.0dda9047f7e14763395b.jpg",
+    "index.html": "/index.html",
+    "main.eec85b72.css.map": "/static/css/main.eec85b72.css.map",
+    "main.c624cc53.js.map": "/static/js/main.c624cc53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eec85b72.css",
+    "static/js/main.c624cc53.js"
+  ]
+}
