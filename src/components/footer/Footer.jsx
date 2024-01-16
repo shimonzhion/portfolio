@@ -18,13 +18,13 @@ function Footer() {
                 </li>
             </ul>
             <div className="footer__social">
-            <a href="https://www.linkedin.com/in/shimon-berry--/" className="footer__social-link" target="_blank">
+            <a href="https://www.linkedin.com/in/shimon-berry--/" className="footer__social-link" rel="noreferrer noopener" target="_blank">
         <i className="bx bxl-linkedin"></i>
       </a>
       <a href="#services" className="footer__social-link">
         <i className="bx bxl-dribbble"></i>
       </a>
-      <a href="https://github.com/shimonzhion" className="footer__social-link" target="_blank">
+      <a href="https://github.com/shimonzhion" className="footer__social-link" rel="noreferrer noopener" target="_blank">
         <i className="bx bxl-github"></i>
       </a>
 

@@ -16,7 +16,7 @@ const Header = () => {
     const [activeNav, setActiveNav]= useState("#home")
 
 
-    const label = { inputProps: { 'aria-label': 'Switch demo' } };
+    // const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
     return (
         <header className="header">
