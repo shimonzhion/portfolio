@@ -1,36 +1,40 @@
 import React, { useState } from "react";
-import "./services.css"
+import "./projects.css"
 
-function Services() {
+
+function Projects() {
   const [toggleState, setToggleState] = useState(0);
   const toggleTab =(index) =>{
     setToggleState(index)
   }
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
+      <h2 className="section__title">Projects</h2>
       <span className="section__subtitle">What i offer</span>
+   
+
 
       <div className="services__container container grid">
 
 
 
         <div className="services__content">
-          <div>
-            <i className="uil uil-web-grid services__icon"></i>
+          {/* <div> */}
+            {/* <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
                 Product <br/> Designer
-                </h3>
-          </div>
-
+                </h3> */}
+                   <img className="project__img" src="https://www.yarddiant.com/images/web-development-projects-for-students.jpg" alt="" />
+{/* 
+          </div> */}
           <span className="services__button"  onClick={()=> toggleTab(1)}>
-            View More <i className="uil uil-arrow-right services__button-icon"></i>
+            View  <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div className={toggleState === 1 ? "services__modal active-modal":"services__modal"}>
             <div className="services__modal-content">
               <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
-
+{/* 
               <h3 className="services__modal-title">Product Designer</h3>
               <p className="services__modal-description">
                 Service with more than 3 years of experience.Providing quality
@@ -70,7 +74,7 @@ function Services() {
                     Design and mockups of products for companies.
                   </p>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
@@ -79,12 +83,14 @@ function Services() {
 
 
         <div className="services__content">
-          <div>
-            <i className="uil uil-arrow services__icon"></i>
+          {/* <div> */}
+            {/* <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
                 Ui/Ux <br/> Designer
-            </h3>
-          </div>
+            </h3> */}
+          {/* </div> */}
+          <img className="project__img" src="https://www.yarddiant.com/images/web-development-projects-for-students.jpg" alt="" />
+
 
           <span className="services__button"  onClick={()=> toggleTab(2)}>
             View More <i className="uil uil-arrow-right services__button-icon"></i>
@@ -94,13 +100,13 @@ function Services() {
             <div className="services__modal-content">
               <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
+              {/* <h3 className="services__modal-title">Ui/Ux Designer</h3>
               <p className="services__modal-description">
                 Service with more than 3 years of experience.Providing quality
                 work to clients and companies.
-              </p>
+              </p> */}
 
-              <ul className="services__modal-services grid">
+              {/* <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
@@ -133,7 +139,7 @@ function Services() {
                     Design and mockups of products for companies.
                   </p>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
@@ -142,22 +148,23 @@ function Services() {
 
 
         <div className="services__content">
-          <div>
-            <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">
+          {/* <div> */}
+            {/* <i className="uil uil-edit services__icon"></i> */}
+            {/* <h3 className="services__title">
               Visual <br/> Designer  
-            </h3>
-          </div>
+            </h3> */}
+          {/* </div> */}
+          <img className="project__img" src="https://www.yarddiant.com/images/web-development-projects-for-students.jpg" alt="" />
 
           <span className="services__button"  onClick={()=> toggleTab(3)}>
-            View More <i className="uil uil-arrow-right services__button-icon"></i>
+            View  <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div className={toggleState === 3 ? "services__modal active-modal":"services__modal"}>
             <div className="services__modal-content">
               <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Visual Designer </h3>
+              {/* <h3 className="services__modal-title">Visual Designer </h3>
               <p className="services__modal-description">
                 Service with more than 3 years of experience.Providing quality
                 work to clients and companies.
@@ -196,7 +203,7 @@ function Services() {
                     Design and mockups of products for companies.
                   </p>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
@@ -208,4 +215,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Projects;

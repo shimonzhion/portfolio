@@ -32,7 +32,7 @@ function Frontend() {
                     <i class='bx bx-badge-check' ></i>
                     <div>
                         <h3 className="skills__name">JavaScript</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
 
@@ -52,11 +52,38 @@ function Frontend() {
                     </div>
                 </div>
 
+
+                {/*MUI */}
+                <div className="skills__data">
+                    <i class='bx bx-badge-check' ></i>
+                    <div>
+                        <h3 className="skills__name">MUI</h3>
+                        <span className="skills__level">Intermediate</span>
+                    </div>
+                </div>
+
+
                  {/* Git */}
                 <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>
                         <h3 className="skills__name">Git</h3>
+                        <span className="skills__level">Intermediate</span>
+                    </div>
+                </div>
+                 {/* GitHub*/}
+                <div className="skills__data">
+                    <i class='bx bx-badge-check' ></i>
+                    <div>
+                        <h3 className="skills__name">GitHub</h3>
+                        <span className="skills__level">Intermediate</span>
+                    </div>
+                </div>
+                 {/* Cypress*/}
+                <div className="skills__data">
+                    <i class='bx bx-badge-check' ></i>
+                    <div>
+                        <h3 className="skills__name">Cypress</h3>
                         <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
