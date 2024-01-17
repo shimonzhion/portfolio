@@ -8,7 +8,7 @@ function Projects() {
     setToggleState(index)
   }
   return (
-    <section className="services section" id="services">
+    <section className="services section" id="projects">
       <h2 className="section__title">Projects</h2>
       <span className="section__subtitle">What i offer</span>
    
