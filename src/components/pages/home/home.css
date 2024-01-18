@@ -57,12 +57,13 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: inset 0 0 0 9px rgba(0, 0, 0, 0.638);
+  box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.638);
   order: 1;
-  justify-self: center;
+  -webkit-background-position: center;
+  justify-self: center center;
   width: 300px;
   height: 300px;
-  animation: profile__animate 8s ease-in-out infinite 1s;
+  animation: profile__animate 4s ease-in-out infinite ;
 }
 
 @keyframes profile__animate {
@@ -77,6 +78,10 @@
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
+
+
+
+
 .home__scroll {
   margin-left: 9.25rem;
 }
@@ -131,7 +136,8 @@
   .home__img {
     width: 250px;
     height: 250px;
-    box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.638);
+
   }
   .home__scroll {
     margin-left: 7.5rem;
@@ -153,7 +159,8 @@
     grid-column: 1/3;
   }
   .home__img {
-    box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.638);
+
     width: 200px;
     height: 200px;
   }
