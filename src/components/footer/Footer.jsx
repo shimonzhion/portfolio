@@ -11,7 +11,7 @@ function Footer() {
                     <a href="#about" className="footer__link">About</a>
                 </li>
                 <li>
-                    <a href="#portfolio" className="footer__link">Projects</a>
+                    <a href="#projects" className="footer__link">Projects</a>
                 </li>
                 <li>
                     <a href="#contact" className="footer__link">Contact</a>
@@ -21,7 +21,7 @@ function Footer() {
             <a href="https://www.linkedin.com/in/shimon-berry--/" className="footer__social-link" rel="noreferrer noopener" target="_blank">
         <i className="bx bxl-linkedin"></i>
       </a>
-      <a href="#services" className="footer__social-link">
+      <a href="#projects" className="footer__social-link">
         <i className="bx bxl-dribbble"></i>
       </a>
       <a href="https://github.com/shimonzhion" className="footer__social-link" rel="noreferrer noopener" target="_blank">

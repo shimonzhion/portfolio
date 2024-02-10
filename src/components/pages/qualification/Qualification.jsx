@@ -35,13 +35,13 @@ function Qualification() {
           <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">Bootcamp</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Tech Career
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>
-                  2021 - Present
+                  2022 - 2023
                 </div>
               </div>
 
@@ -51,7 +51,7 @@ function Qualification() {
               </div>
             </div>
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
 
               <div>
@@ -69,9 +69,9 @@ function Qualification() {
                   2020 - 2021
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Web Development</h3>
                 <span className="qualification__subtitle">
@@ -87,9 +87,9 @@ function Qualification() {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </div>
+            </div> */}
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
 
               <div>
@@ -107,7 +107,7 @@ function Qualification() {
                   2017 - 2018
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
 

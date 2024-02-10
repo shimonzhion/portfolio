@@ -1,3 +1,10 @@
+
+.errorMessage{
+  font-size: var(--small-font-size);
+  color: red;
+  margin-bottom: 1rem;
+
+}
 .contact__container {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
@@ -16,6 +23,7 @@
   display: grid;
   row-gap: 1rem;
   grid-template-columns: 300px;
+
 }
 
 .contact__card {
@@ -35,6 +43,7 @@
 .contact__card-title,
 .contact__card-data {
   font-size: var(--small-font-size);
+  
 }
 
 .contact__card-title {
@@ -44,6 +53,7 @@
 .contact__card-data {
   display: block;
   margin-bottom: var(--mb-0-75);
+  
 }
 
 .contact__button {
@@ -66,12 +76,14 @@
 
 .contact__form {
   width: 360px;
+  
 }
 
 
 .contact__form-div {
     position: relative;
-    margin-bottom: var(--mb-2);
+     margin-bottom: var(--mb-1); 
+
     height: 4rem;
 }
 
@@ -88,6 +100,7 @@
     border-radius:  0.75rem;
     padding: 1.5rem;
     z-index: 1;
+ 
 
 }
 
@@ -152,3 +165,15 @@ resize: none;
   
   }
   
+
+  .contact__message{
+    text-align: center;
+    font-size: medium;
+    height: 25%;
+  
+    background-color: rgba(0, 0, 0, 0.69);
+  }
+
+  .contact__btn{
+    font-size: 70%;
+  }

@@ -1,9 +1,8 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import "./contact.css";
 import validation from "../../validation/validation";
 
-function Contact() {
+export function Contact() {
   const form = useRef();
 
   const [values, setValues] = useState({ name: "", email: "", message: "" });
@@ -48,6 +47,14 @@ function Contact() {
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">shimonb055@icloud.com</span>
 
+              {/* <a
+              href="mailto:shimonb055@icloud.com"
+              className="contact__button"
+            >
+              Write me
+              <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+            </a> */}
+
               <a
                 href="mailto:shimonb055@icloud.com"
                 className="contact__message button button--flex"
@@ -70,6 +77,18 @@ function Contact() {
                 <span className="contact__btn"> Write me</span>
               </a>
             </div>
+
+            {/* <div className="contact__card">
+              <i className="bx bxl-messenger contact__card-icon"></i>
+
+              <h3 className="contact__card-title">Messenger</h3>
+              <span className="contact__card-data">user.fb123</span>
+
+              <a href="https://m.me/crypticalcoder" className="contact__button">
+                Write me
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div> */}
           </div>
         </div>
 
@@ -139,5 +158,3 @@ function Contact() {
     </section>
   );
 }
-
-export default Contact;
