@@ -8,7 +8,6 @@ function Contact() {
 
   const [values, setValues] = useState({ name: "", email: "", message: "" });
   const [errors, setErrors] = useState({ error: "error" });
-  const [bool, setBool] = useState(false);
   const handleInput = (event) => {
     const newObj = { ...values, [event.target.name]: event.target.value };
     setValues(newObj);
