@@ -61,7 +61,7 @@ function Data() {
         dedicated to my work.
       </p>
       <a href="#contact" className="button button--flex">
-        Say Hello
+         Say Hello
         <svg
           className="button__icon"
           xmlns="http://www.w3.org/2000/svg"
