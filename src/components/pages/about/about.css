@@ -1,13 +1,18 @@
+/* .about{
+  display: flex
+} */
 .about__container {
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: center; 
+  grid-template-columns: repeat(4, 1fr);
   align-items: center;
   column-gap: 4rem;
 }
-
-.about__img {
-  width: 350px;
-  border-radius: 1rem;
-  justify-self: center;
+.about__data{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about__info {

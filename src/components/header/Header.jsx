@@ -13,8 +13,6 @@ const Header = () => {
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
 
-  // const label = { inputProps: { 'aria-label': 'Switch demo' } };
-
   return (
     <header className="header">
       <nav className="nav container">
