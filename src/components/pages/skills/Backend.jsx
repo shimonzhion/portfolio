@@ -11,7 +11,7 @@ function Backend() {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Node Js</h3>
-              <span className="skills__level">Basic</span>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
 
@@ -20,7 +20,7 @@ function Backend() {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Express Js</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
 
@@ -29,7 +29,7 @@ function Backend() {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">MongoDB</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
         </div>
