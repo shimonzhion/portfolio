@@ -45,10 +45,10 @@ function Contact() {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">shimonb055@icloud.com</span>
+              <span className="contact__card-data">shimonb.dev7@gmail.com</span>
 
               <a
-                href="mailto:shimonb055@icloud.com"
+                href="mailto:shimonb.dev7@gmail.com"
                 className="contact__message button button--flex"
               >
                 <span className="contact__btn"> Write me</span>
@@ -59,11 +59,11 @@ function Contact() {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">WhatsApp</h3>
-              <span className="contact__card-data">053-3018439</span>
+              <span className="contact__card-data">054-5278355</span>
 
               <a
                 aria-label="Chat on WhatsApp"
-                href="https://wa.me/+972533018439?text=Hi, Shimon"
+                href="https://wa.me/+972545278355?text=Hi, "
                 className="contact__message button button--flex"
               >
                 <span className="contact__btn"> Write me</span>
